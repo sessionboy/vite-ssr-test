@@ -26,7 +26,6 @@ app.use(proxy({
 }));
 
 app.use(async (ctx)=>{
-  ctx.type = "html";
   ctx.body=`
     <!DOCTYPE html>
       <html lang="en">
