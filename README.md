@@ -5,6 +5,8 @@
 yarn
 ```
 
+Since "type"="module" is used, please make sure your node version is 15+.
+
 #### Development environment start
 
 Two servers 3000 (vite dev server) and 3001 (vite ssr server) will be started.
